@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Detalhes da Obra - ConstructionCon</title>
+    <link rel="stylesheet" href="construcao.css" />
+</head>
+<body>
+    <header>
+        <h1>Detalhes da Obra</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="funcionarios.html">Usuários</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="status-obra">
+            <h2>Status Atual da Obra</h2>
+            <select name="status">
+                <option value="em_andamento">Em Andamento</option>
+                <option value="pausada">Pausada</option>
+                <option value="finalizada">Finalizada</option>
+            </select>
+            <button>Atualizar Status</button>
+        </section>
+
+        <section class="progresso-obra">
+            <h2>Progresso da Obra</h2>
+            <div class="progress-bar">
+                
+            </div>
+        </section>
+
+        <section class="documentos-obra">
+            <h2>Documentos do Projeto</h2>
+            <form>
+                <label>Enviar Documento PDF:
+                    <input type="file" accept="application/pdf" />
+                </label>
+                <button type="submit">Enviar Documento</button>
+            </form>
+            <ul>
+                <li><a href="#">Contrato.pdf</a> <button>Remover</button></li>
+                <li><a href="#">Cronograma.pdf</a> <button>Remover</button></li>
+            </ul>
+        </section>
+
+        <section class="fotos-obra">
+            <h2>Fotos do Andamento</h2>
+            <form>
+                <label>Enviar Foto:
+                    <input type="file" accept="image/*" />
+                </label>
+                <button type="submit">Enviar Foto</button>
+            </form>
+            <div class="galeria-fotos">
+                <img src="foto1.jpg" alt="Foto da obra" />
+                <img src="foto2.jpg" alt="Foto da obra" />
+                <!-- outras fotos -->
+            </div>
+        </section>
+
+        <section class="relatorios">
+            <h2>Relatórios Mensais</h2>
+            <ul>
+                <li><a href="#">Relatório_Marco_2025.pdf</a></li>
+                <li><a href="#">Relatório_Abril_2025.pdf</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ConstructionCon. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -26,4 +26,4 @@ function cadastrar() {
             localStorage.setItem("usuarioLogado", JSON.stringify(usuario));
             window.location.href = "index.html"; 
             return true; 
-        }
+}
