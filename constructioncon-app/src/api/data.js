@@ -1,8 +1,3 @@
-// src/api/data.js
-
-// Estes dados simulam o que viria de um back-end.
-// No futuro, você substituiria isto por chamadas de API reais (ex: fetch).
-
 const allProjects = [
     { id: 1, name: 'Edifício Comercial Center', client: 'XPTO Investimentos', progress: 80, status: 'Em Andamento' },
     { id: 2, name: 'Residencial Alphaville', client: 'Família Silva', progress: 100, status: 'Finalizado' },
@@ -49,6 +44,5 @@ const clientData = {
     ]
 };
 
-// Funções que simulam a obtenção de dados
 export const getAdminData = () => ({ allProjects, allUsers, allRisks });
 export const getClientData = () => (clientData);
