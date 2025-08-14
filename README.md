@@ -1,2 +1,5 @@
 ## ConstructionCon
 - é uma plataforma digital inovadora que visa transformar a experiência de clientes e construtoras no setor de construção, reforma e manutenção. Através de um website intuitivo e acessível, o projeto centraliza todas as informações e documentos essenciais relacionados ao andamento da obra ou reforma, promovendo uma comunicação mais eficiente entre as partes envolvidas. Seu foco é garantir maior transparência, organização e conveniência, otimizando a gestão de obras e a experiência geral do cliente.
+
+## Tecnologias Usada
+CSS · Vite · Gestão de projetos · PostgreSQL · React.js
